@@ -1,0 +1,50 @@
+html, body, #root {
+	height: 100%;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+	display: flex;
+}
+
+.content {
+	//background-color: red;
+	height: 100%;
+	width: 100%;
+}
+
+.App {
+	text-align: center;
+	height: 100%;
+	display: flex;
+}
+
+.App-logo {
+	float: left;
+	padding: 20px 0 20px 20px;
+}
+
+.sidebar {
+	float: left;
+	text-align: center;
+	//width: 360px;
+	height: 100%;
+	//padding: 20px;
+	padding-right: 20px;
+	//background-color: blue;
+}
+
+.App-header {
+	background-color: #222;
+	height: 213px;
+	padding: 20px;
+	color: white;
+}
